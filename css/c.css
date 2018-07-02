@@ -1,0 +1,147 @@
+.h-table,
+.h-rank {
+  font-size: 18px;
+  color: #fff;
+}
+.h-table tr,
+.h-rank tr {
+  background: #efefef;
+}
+.h-table tr:nth-child(even),
+.h-rank tr:nth-child(even) {
+  background: #d6e1ed;
+}
+.h-table thead,
+.h-rank thead {
+  line-height: 44px;
+}
+.h-table thead th,
+.h-rank thead th,
+.h-table thead tr,
+.h-rank thead tr {
+  font-weight: normal;
+  background: #1c355e;
+}
+.h-table tr,
+.h-rank tr,
+.h-table th,
+.h-rank th,
+.h-table td,
+.h-rank td {
+  padding: 0 11px;
+}
+.h-table table {
+  width: 100%;
+  font-size: 18px;
+  color: #fff;
+}
+.h-table table .tal {
+  text-align: left;
+}
+.h-table table .tar {
+  text-align: right;
+}
+.h-table table .number {
+  width: 60px;
+  height: 22px;
+  border: 1px solid #b7b7b7;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #d42029;
+  text-align: center;
+}
+.h-table table .bdr {
+  border-right: 1px solid #d2d2d2;
+}
+.h-table tr,
+.h-table th,
+.h-table td {
+  padding: 0 11px;
+}
+.h-table thead {
+  line-height: 44px;
+}
+.h-table thead th,
+.h-table thead tr {
+  font-weight: normal;
+  background: #1c355e;
+}
+.h-table tbody tr {
+  border-bottom: 1px solid #fff;
+}
+.h-table tbody tr,
+.h-table tbody th {
+  font-size: 16px;
+  color: #1c355e;
+  line-height: 38px;
+}
+.h-rank thead tr,
+.h-rank thead th {
+  text-align: left;
+}
+.h-rank tbody {
+  font-size: 14px;
+  color: #1c355e;
+  line-height: 30px;
+}
+.h-rank tbody .red {
+  color: #fb1a25;
+}
+.h-late-over-game {
+  position: fixed;
+  top: 0;
+  right: 0;
+  max-width: 307px;
+  width: 100%;
+  margin: 0 auto;
+}
+.h-late-over-game .item {
+  padding-top: 0;
+  height: 135px;
+  border-bottom: 1px solid #d6e1ed;
+}
+.h-late-over-game .item .location {
+  width: 90px;
+  padding-top: 23px;
+}
+.h-late-over-game .item .location img {
+  display: block;
+  margin: 0 auto;
+  width: 58px;
+  border-radius: 50%;
+  border: 2px solid #c7c7c7;
+}
+.h-late-over-game .item .location .name {
+  font-size: 16px;
+  color: #313131;
+  text-align: center;
+  line-height: 2;
+}
+.h-late-over-game .item .content {
+  width: 127px;
+  text-align: center;
+}
+.h-late-over-game .item .content .date {
+  padding: 30px 0 10px;
+  font-size: 14px;
+  color: #757575;
+  line-height: 1;
+}
+.h-late-over-game .item .content .score-rank {
+  width: 100%;
+  height: 48px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAASCAYAAAB8fn/4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkVCNzUzNDZGNjVBRDExRThBMEJFQjE0NzlCQUUzMTkwIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkVCNzUzNDcwNjVBRDExRThBMEJFQjE0NzlCQUUzMTkwIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RUI3NTM0NkQ2NUFEMTFFOEEwQkVCMTQ3OUJBRTMxOTAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RUI3NTM0NkU2NUFEMTFFOEEwQkVCMTQ3OUJBRTMxOTAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5ZVG+aAAAAKUlEQVR42mJkClj+nwEJMDGgAcICjP///2eg0Az6CLAwB66g1LcAAQYAq8cHFZ0G6BQAAAAASUVORK5CYII=) center center no-repeat;
+}
+.h-late-over-game .item .content .value {
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  background: url("../img/ac42ddd495eb06f5dde1776f461c6cf8-48+48.jpg") center center no-repeat;
+  border-radius: 3px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=c.css.map */
